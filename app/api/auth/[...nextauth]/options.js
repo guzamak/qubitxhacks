@@ -27,7 +27,9 @@ export const options = {
     },
   },
   pages: {
-    signIn: "/" 
+    signIn: "/" ,
+    signOut: "/dashboard",
+    error: "/",
   },
   secret: process.env.NEXTAUTH_SECRET,
 };
