@@ -113,7 +113,7 @@ export default function Problem({ problem }) {
   }, [osc]);
 
   return (
-    <div className="w-screen min-h-screen flex items-center justify-center">
+    <div className="w-screen h-screen flex items-center justify-center">
       <div className="w-full max-w-[52rem] flex flex-col justify-center items-center my-10 md:my-36 space-y-10 md:space-y-20 text-center">
         <div className="w-full sm:w-3/4 md:w-2/4 space-y-6 md:space-y-12">
           <h1 className="text-4xl md:text-5xl font-bold">SYNTH</h1>
